@@ -15,6 +15,10 @@ echo 'One line simple string.<br />';
 ?>
 
 <?php
+
+
+
+
 // This is a single-line comment
 
 # This is also a single-line comment
@@ -25,8 +29,6 @@ that spans over multiple
 lines
 */
 
-
-// You can also use comments to leave out parts of a code line
 $x = 5 /* + 15 */ + 5;
 echo $x;
 
@@ -50,7 +52,6 @@ echo "<p> <font color=green> One line simple string in
 green color</font> </p>";
 
 
-
 $a=1000;
 $b=1200;
 $c=1400;
@@ -67,7 +68,6 @@ Click here to see the current month salary
 statement.</a>";
 
 ?>
-
 
 </body>
 </html>
