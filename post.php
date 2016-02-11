@@ -11,7 +11,6 @@ else
 $id_get = intval($_GET['id']);
 }
 
-
 $v1 = mysql_query('SELECT * FROM articles WHERE id = "'.$id_get.'"');
 $info_article = mysql_fetch_array($v1);
 if(isset($info_article['id'])) { ?>
@@ -23,4 +22,16 @@ if(isset($info_article['id'])) { ?>
 <br />
 <hr />
 <br />
+
+<!-- Commentaires -->
+
+
+<?php
+
+
+?>
+
+
+
+
 
