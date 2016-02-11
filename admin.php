@@ -1,3 +1,6 @@
+
+<!-- ADMINISTRATION -->
+
 <?php
 include('config.php');
 
@@ -32,6 +35,9 @@ echo 'Tout les champs sont obligatoires';
 }
 }
 ?>
+
+<!-- FORME MODIF -->
+
 <br />
 <form action="" method="post">
 Auteur : <input type="text" name="auteur" value="GO"/><br />
