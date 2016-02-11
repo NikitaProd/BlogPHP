@@ -1,4 +1,3 @@
-
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -18,8 +17,6 @@ include('config.php');
 // phpmyadmin:  table: 1.Articles (id, titre, auteur, contenu)  et
 //                     2.commentaire (id, auteur, contenu, id_article )
 ?>
-
-
 <h1>Nouveautes : </h1>
 
 <?php
@@ -38,5 +35,3 @@ Nouveaute N <?php echo $info_article['id']; ?> publie par
 ?>
 
 <!-- Blog basique THE END -->
-
-
