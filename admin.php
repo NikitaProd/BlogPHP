@@ -1,5 +1,4 @@
-
-<!-- ADMINISTRATION -->
+<!-- Espace d'administration de blog -->
 
 <?php
 include('config.php');
@@ -36,7 +35,7 @@ echo 'Tout les champs sont obligatoires';
 }
 ?>
 
-<!-- FORME MODIF -->
+<!-- FORME -->
 
 <br />
 <form action="" method="post">
