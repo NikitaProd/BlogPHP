@@ -23,7 +23,6 @@ if(isset($info_article['id'])) { ?>
 <br />
 <hr />
 <br />
-
 <!-- Commentaires -->
 
 <?php
@@ -39,3 +38,8 @@ else
 echo 'Erreur : News non existante';
 }
 ?>
+<br />
+
+
+
+
