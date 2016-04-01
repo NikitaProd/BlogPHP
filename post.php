@@ -23,11 +23,13 @@ if(isset($info_article['id'])) { ?>
 <br />
 <hr />
 <br />
+
 <!-- Commentaires -->
 
 <?php
 $v2 = mysql_query('SELECT * FROM commentaires WHERE id_article ="'.$info_article['id'].'" ORDER BY id LIMIT 0,10');
 while($info_com = mysql_fetch_array($v2)) { ?>
+
 Commentaire N <?php echo $info_com['id'];?> par <?php echo $info_com['auteur'];?> : <br />
 <?php echo nl2br(htmlspecialchars($info_com['contenu'])); ?><br /><br />
 <?php
@@ -39,6 +41,8 @@ echo 'Erreur : News non existante';
 }
 ?>
 <br />
+
+
 
 
 
