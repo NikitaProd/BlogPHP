@@ -21,6 +21,7 @@ include('config.php');
 //                     2.commentaire (id, auteur, contenu, id_article )
 ?>
 
+
 <h1>Nouveautes : </h1>
 <?php
 $v1 = mysql_query('SELECT * FROM articles ORDER BY id DESC LIMIT 0,5');
@@ -33,7 +34,9 @@ Nouveaute N <?php echo $info_article['id']; ?> publie par
 <?php echo nl2br(htmlspecialchars($info_article['contenu'])); ?><br />
 <hr />
 
+
 <?php
 }
 ?>
+
 <!-- Blog basique THE END -->
