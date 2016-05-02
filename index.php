@@ -32,10 +32,8 @@ Nouveaute N <?php echo $info_article['id']; ?> publie par
 <?php echo nl2br(htmlspecialchars($info_article['contenu'])); ?><br />
 <hr />
 
-
 <?php
 }
 ?>
-
 
 <!-- Blog basique THE END -->
