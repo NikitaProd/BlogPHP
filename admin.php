@@ -10,6 +10,7 @@ mysql_query('DELETE FROM articles WHERE id = "'.$idP.'"');
 }
 ?>
 
+
 <!-- Administration -->
 
 <h1>Ajouter une news</h1>
@@ -34,6 +35,7 @@ echo 'Tout les champs sont obligatoires';
 }
 }
 ?>
+
 
 <!-- FORME -->
 
