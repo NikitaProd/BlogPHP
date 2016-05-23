@@ -12,6 +12,7 @@ else
 $id_get = intval($_GET['id']);
 }
 
+
 $v1 = mysql_query('SELECT * FROM articles WHERE id = "'.$id_get.'"');
 $info_article = mysql_fetch_array($v1);
 if(isset($info_article['id'])) { ?>
@@ -41,9 +42,4 @@ echo 'Erreur : News non existante';
 }
 ?>
 <br />
-
-
-
-
-
 
