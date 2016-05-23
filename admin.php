@@ -1,5 +1,6 @@
 <!-- Espace d'administration de blog -->
 
+
 <?php
 include('config.php');
 
@@ -9,6 +10,7 @@ $idP = intval($_GET['id']);
 mysql_query('DELETE FROM articles WHERE id = "'.$idP.'"');
 }
 ?>
+
 
 
 <!-- Administration -->
