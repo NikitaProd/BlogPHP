@@ -2,6 +2,7 @@
 <!-- POST PAGE -->
 
 <?php
+
 include('config.php');
 if(!isset($_GET['id']))
 {
