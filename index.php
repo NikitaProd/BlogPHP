@@ -1,5 +1,4 @@
 
-
 <?php
 // Afficher les erreurs à l'écran
 ini_set('display_errors', 1);
@@ -10,7 +9,6 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
 <!-- Blog basique  -->
-
 <?php
 include('config.php');
 // mysql_connect('localhost', 'root', 'root')*
@@ -33,6 +31,7 @@ Nouveaute N <?php echo $info_article['id']; ?> publie par
 <?php echo htmlspecialchars($info_article['titre']); ?></a></i><br /><br />
 <?php echo nl2br(htmlspecialchars($info_article['contenu'])); ?><br />
 <hr />
+
 
 <?php
 }
