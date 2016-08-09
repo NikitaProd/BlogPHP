@@ -19,6 +19,9 @@ include('config.php');
 ?>
 
 
+
+
+
 <h1>Nouveautes : </h1>
 
 <?php
